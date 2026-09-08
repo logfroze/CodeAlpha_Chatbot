@@ -1,5 +1,5 @@
 """
-CodeAlpha Basic Chatbot
+CodeAlpha - Python - Task 04: Basic Chatbot
 Author: CodeAlpha Intern
 Description: A simple rule-based console chatbot demonstrating fundamental
 Python concepts including conditional statements (if-elif-else), functions,
