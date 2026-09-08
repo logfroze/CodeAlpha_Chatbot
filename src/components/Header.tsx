@@ -26,10 +26,13 @@ export const Header: React.FC<HeaderProps> = ({
             py
           </div>
           <div>
-            <div className="flex items-center gap-2">
+            <div className="flex items-center gap-2 flex-wrap">
               <h1 className="text-base font-semibold text-zinc-900 tracking-tight">
                 CodeAlpha Basic Chatbot
               </h1>
+              <span className="inline-flex items-center px-2 py-0.5 text-xs font-semibold rounded-md bg-zinc-900 text-white shadow-xs">
+                CodeAlpha - Python - Task 04
+              </span>
               <span className="hidden md:inline-flex items-center gap-1.5 px-2 py-0.5 text-xs font-medium rounded-md bg-zinc-100 text-zinc-700 border border-zinc-200">
                 <span
                   className={`w-1.5 h-1.5 rounded-full ${
@@ -40,7 +43,7 @@ export const Header: React.FC<HeaderProps> = ({
               </span>
             </div>
             <p className="text-xs text-zinc-500">
-              Rule-based conversational console application for CodeAlpha Internship Task 1
+              Rule-based conversational console application — CodeAlpha - Python - Task 04
             </p>
           </div>
         </div>
